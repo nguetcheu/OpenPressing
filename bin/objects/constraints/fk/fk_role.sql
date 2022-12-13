@@ -1,0 +1,2 @@
+ALTER TABLE Roles ADD CONSTRAINT FKRoles91584 FOREIGN KEY (id_pressing) REFERENCES Pressings (id_pressing);
+ALTER TABLE Roles ADD CONSTRAINT FKRoles172664 FOREIGN KEY (id_utilisateur) REFERENCES utlisateurs (id_utilisateur);

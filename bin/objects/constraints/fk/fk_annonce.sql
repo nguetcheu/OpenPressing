@@ -1,0 +1,2 @@
+ALTER TABLE Annonces ADD CONSTRAINT FKAnnonces246916 FOREIGN KEY (id_pressing) REFERENCES Pressings (id_pressing);
+ALTER TABLE Annonces ADD CONSTRAINT FKAnnonces511164 FOREIGN KEY (id_utilisateur) REFERENCES utlisateurs (id_utilisateur);

@@ -1,0 +1,1 @@
+ALTER TABLE Clients ADD CONSTRAINT FKClients406206 FOREIGN KEY (id_personne) REFERENCES Personnes (id_personne);

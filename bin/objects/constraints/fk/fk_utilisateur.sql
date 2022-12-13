@@ -1,0 +1,2 @@
+ALTER TABLE utlisateurs ADD CONSTRAINT FKutlisateur624792 FOREIGN KEY (id_PersonnePhysique) REFERENCES PersonnePhysique (id_PersonnePhysique);
+ALTER TABLE utlisateurs ADD CONSTRAINT FKutlisateur437348 FOREIGN KEY (id_pressing) REFERENCES Pressings (id_pressing);

@@ -1,0 +1,1 @@
+ALTER TABLE Attributs ADD CONSTRAINT FKAttributs690278 FOREIGN KEY (id_type_service) REFERENCES TypeServices (id_type_service);

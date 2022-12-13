@@ -1,0 +1,2 @@
+ALTER TABLE Services ADD CONSTRAINT FKServices803829 FOREIGN KEY (id_pressing) REFERENCES Pressings (id_pressing);
+ALTER TABLE Services ADD CONSTRAINT FKServices890735 FOREIGN KEY (id_type_service) REFERENCES TypeServices (id_type_service);

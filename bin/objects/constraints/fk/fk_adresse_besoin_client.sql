@@ -1,0 +1,2 @@
+ALTER TABLE Adresse_BesoinClient ADD CONSTRAINT FKAdresse_Be548351 FOREIGN KEY (id_adress) REFERENCES Adresses (id_adress);
+ALTER TABLE Adresse_BesoinClient ADD CONSTRAINT FKAdresse_Be919953 FOREIGN KEY (id_besoin_client) REFERENCES BesoinClients (id_besoin_client);

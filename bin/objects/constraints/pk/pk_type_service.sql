@@ -1,0 +1,1 @@
+ALTER TABLE TypeServices ADD CONSTRAINT pk_TypeServices PRIMARY KEY (id_type_service);

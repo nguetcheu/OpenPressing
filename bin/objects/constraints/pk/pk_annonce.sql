@@ -1,0 +1,1 @@
+ ALTER TABLE Annonces ADD CONSTRAINT pk_annonce PRIMARY KEY (id_annonce);

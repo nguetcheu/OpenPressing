@@ -1,0 +1,1 @@
+ALTER TABLE Pressings ADD CONSTRAINT pk_Pressings PRIMARY KEY (id_pressing);

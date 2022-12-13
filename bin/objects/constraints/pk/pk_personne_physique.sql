@@ -1,0 +1,1 @@
+ ALTER TABLE PersonnePhysique ADD CONSTRAINT pk_PersonnePhysique PRIMARY KEY (id_PersonnePhysique);
